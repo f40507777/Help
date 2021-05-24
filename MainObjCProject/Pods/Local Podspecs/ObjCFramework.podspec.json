@@ -1,0 +1,35 @@
+{
+  "name": "ObjCFramework",
+  "version": "1.0.0",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "summary": "xxx",
+  "homepage": "xxx",
+  "authors": {
+    "xxx": "xxx"
+  },
+  "source": {
+    "git": "",
+    "tag": "1.0.0"
+  },
+  "source_files": "ObjCFramework/**/*.{h,m,mm,cpp,c}",
+  "public_header_files": [
+    "ObjCFramework/*.h"
+  ],
+  "frameworks": [
+    "VideoToolbox",
+    "AudioToolbox",
+    "AVFoundation",
+    "Foundation",
+    "UIKit"
+  ],
+  "requires_arc": true,
+  "platforms": {
+    "osx": null,
+    "ios": null,
+    "tvos": null,
+    "watchos": null
+  }
+}

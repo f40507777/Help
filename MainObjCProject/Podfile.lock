@@ -1,0 +1,16 @@
+PODS:
+  - ObjCFramework (1.0.0)
+
+DEPENDENCIES:
+  - ObjCFramework (from `../ObjCFramework/.`)
+
+EXTERNAL SOURCES:
+  ObjCFramework:
+    :path: "../ObjCFramework/."
+
+SPEC CHECKSUMS:
+  ObjCFramework: 632a36d5c42c084b4510e7d37c149e0fbafe458c
+
+PODFILE CHECKSUM: 733df7909cb59c8d44eda10b2018505053eeb0a4
+
+COCOAPODS: 1.10.1
